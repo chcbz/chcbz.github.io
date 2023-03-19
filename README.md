@@ -1,1 +1,1 @@
-# chcbz.github.io
+# blog.chcbz.net
