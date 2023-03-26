@@ -1,18 +1,19 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "A blog for chcbz.",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "chcbz",
+  "license": "MIT",
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.61",
     "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.61"
+    "vuepress": "2.0.0-beta.61",
+    "vuepress-theme-hope": "2.0.0-beta.197"
   }
 }
