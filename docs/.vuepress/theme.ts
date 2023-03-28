@@ -21,25 +21,6 @@ export default hopeTheme({
   locales: {
     "/": {
       // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
       navbar: zhNavbar,
 
       // sidebar
@@ -54,12 +35,31 @@ export default hopeTheme({
         editLink: "在 GitHub 上编辑此页",
       },
     },
+
+    /**
+     * English locale config
+     */
+    "/en/": {
+      // navbar
+      navbar: enNavbar,
+
+      // sidebar
+      sidebar: enSidebar,
+
+      footer: "Default footer",
+
+      displayFooter: true,
+
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    },
   },
 
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/en/demo/encrypt.html": ["1234"],
     },
   },
 
