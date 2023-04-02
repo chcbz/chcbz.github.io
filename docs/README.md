@@ -1,10 +1,10 @@
 ---
 home: true
 icon: home
-title: 项目主页
+title: 主页
 heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: 布衣云水客
+tagline: 一个善良无私、待人真挚的字典小民。
 actions:
   - text: 使用指南 💡
     link: /demo/
