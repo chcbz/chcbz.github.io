@@ -3,18 +3,18 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://blog.chcbz.net",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Mr.Chen",
+    url: "https://blog.chcbz.net",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "chcbz/chcbz.github.io",
 
   docsDir: "demo/theme-docs/src",
 
@@ -64,6 +64,7 @@ export default hopeTheme({
   },
 
   plugins: {
+    blog: true,
     // comment: {
     //   // @ts-expect-error: You should generate and use your own comment service
     //   provider: "Waline",
