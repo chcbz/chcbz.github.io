@@ -6,12 +6,12 @@ heroImage: /logo.svg
 heroText: 布衣云水客
 tagline: 一个善良无私、待人真挚的字典小民。
 actions:
-  - text: 使用指南 💡
-    link: /demo/
+  - text: 文章 💡
+    link: /article/
     type: primary
 
-  - text: 文档
-    link: /guide/
+  - text: 视频
+    link: /video/
 
 features:
   - title: Markdown 增强

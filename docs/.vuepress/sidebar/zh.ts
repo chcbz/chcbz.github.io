@@ -3,17 +3,17 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/": [
     "",
+    // {
+    //   icon: "discover",
+    //   text: "文章",
+    //   prefix: "article/",
+    //   link: "article/",
+    //   children: "structure",
+    // },
     {
-      icon: "discover",
-      text: "案例",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文档",
+      text: "视频",
       icon: "note",
-      prefix: "guide/",
+      prefix: "video/",
       children: "structure",
     },
     "slides",

@@ -6,12 +6,12 @@ heroImage: /logo.svg
 heroText: Project name
 tagline: You can place the description of the project here.
 actions:
-  - text: How to Use 💡
-    link: /en/demo/
+  - text: Article 💡
+    link: /en/article/
     type: primary
 
-  - text: Docs
-    link: /en/guide/
+  - text: How to Use
+    link: /en/demo/
 
 features:
   - title: Markdown Enhance
