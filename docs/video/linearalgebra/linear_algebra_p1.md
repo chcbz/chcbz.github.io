@@ -6,7 +6,7 @@ category:
   - 视频
 tag:
   - 线性代数
-star: false
+star: true
 order: 1
 ---
 
