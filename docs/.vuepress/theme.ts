@@ -65,10 +65,13 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-    // comment: {
-    //   // @ts-expect-error: You should generate and use your own comment service
-    //   provider: "Waline",
-    // },
+    comment: {
+      provider: "Giscus",
+      repo: "chcbz/chcbz.github.io",
+      repoId: "R_kgDOJLZlmQ",
+      category: "General",
+      categoryId: "DIC_kwDOJLZlmc4CVyKs",
+    },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
