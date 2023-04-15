@@ -7,11 +7,11 @@ heroText: Project name
 tagline: You can place the description of the project here.
 actions:
   - text: Article 💡
-    link: /en/article/
+    link: /article/
     type: primary
 
-  - text: How to Use
-    link: /en/demo/
+  - text: Video
+    link: /video/
 
 features:
   - title: Markdown Enhance
@@ -100,11 +100,6 @@ features:
     link: https://theme-hope.vuejs.press/guide/feature/
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+footer: "Copyright © 2023 Mr.Chen"
 ---
 
-This is an example of a project homepage. You can place your main content here.
-
-To use this layout, you need to set `home: true` in the page front matter.
-
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
