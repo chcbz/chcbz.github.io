@@ -4,6 +4,7 @@ export const enNavbar = navbar([
   "/en/",
   { text: "Article", icon: "discover", link: "/en/article/" },
   { text: "Video", icon: "discover", link: "/en/video/" },
+  { text: "Handbook", icon: "discover", link: "/en/handbook/"},
   // {
   //   text: "Guide",
   //   icon: "creative",
