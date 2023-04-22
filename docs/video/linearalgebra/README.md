@@ -1,6 +1,6 @@
 ---
 title: 1.线性代数的本质
-icon: creative
+icon: object
 date: 2023-03-07 10:16:05
 category:
   - 视频

@@ -14,90 +14,45 @@ actions:
     link: /video/
 
 features:
-  - title: Markdown 增强
+  - title: Disruptor 详细介绍
+    icon: process
+    details: 英国外汇交易公司LMAX开发的一个高性能队列，研发的初衷是解决内部的内存队列的延迟问题，而不是分布式队列。
+    link: /article/2023041222.html
+
+  - title: Markdown 使用手册
     icon: markdown
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: https://theme-hope.vuejs.press/zh/guide/markdown/
+    details: Markdown 是一种轻量级的标记语言，用于为文本添加格式和结构，以便更容易地阅读和理解。
+    link: /article/2023040623.html
 
-  - title: 幻灯片页面
-    icon: slides
-    details: 添加幻灯片页面以显示你喜欢的内容
-    link: https://theme-hope.vuejs.press/zh/guide/layout/slides.html
+  - title: 申请 HTTPS 证书
+    icon: http
+    details: 通过 certbot-auto 实现全自动获取和更新 HTTPS 证书，支持阿里云、腾讯云、Godaddy。
+    link: /article/2019060114.html
 
-  - title: 布局增强
-    icon: layout
-    details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-    link: https://theme-hope.vuejs.press/zh/guide/layout/
+  - title: Centos 启动执行过程
+    icon: centos
+    details: 简单描述 Centos 开机启动脚本执行过程。
+    link: /article/2019041110.html
 
-  - title: 浏览量与评论
-    icon: comment
-    details: 配合 Waline 来开启阅读量统计与评论支持
-    link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+  - title: 线性代数的本质
+    icon: object
+    details: 确保我们能在同一起跑线上用线性代数的思维思考向量。
+    link: /video/linearalgebra/
 
-  - title: 文章信息
-    icon: info
-    details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-    link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+  - title: 微积分的本质
+    icon: valine
+    details: 解开一个简单的几何题中的细微差别会引出积分，导数，微积分基本定理。
+    link: /video/calculus/
 
-  - title: 博客支持
-    icon: blog
-    details: 使用一些很棒的布局提供博客功能，通过文章的日期、标签和分类，自动生成文章、分类、标签与时间轴列表
-    link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
+  - title: 深度学习
+    icon: relation
+    details: 什么是神经网络？梯度下降，神经网络如何学习?
+    link: /video/deeplearn/
 
-  - title: 主题色切换
-    icon: palette
-    details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
-    link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
-
-  - title: 深色模式
-    icon: contrast
-    details: 可以自由切换浅色模式与深色模式
-    link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
-
-  - title: 完整的无障碍支持
-    icon: support
-    details: 为你的网站带来完整的无障碍支持
-    link: https://theme-hope.vuejs.press/zh/guide/interface/accessibility.html
-
-  - title: 文章加密
-    icon: lock
-    details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-    link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
-
-  - title: 复制按钮
-    icon: copy
-    details: 一键复制代码块中的代码
-    link: https://theme-hope.vuejs.press/zh/guide/feature/copy-code.html
-
-  - title: 图片预览
-    icon: pic
-    details: 像相册一样允许你浏览、缩放并分享你的页面图片
-    link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
-
-  - title: SEO 增强
-    icon: config
-    details: 将最终生成的网页针对搜索引擎进行优化。
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
-
-  - title: Sitemap
-    icon: sitemap
-    details: 自动为你的网站生成 Sitemap
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
-
-  - title: Feed 支持
-    icon: rss
-    details: 生成你的 Feed，并通知你的用户订阅它
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
-
-  - title: PWA 支持
-    icon: mobile
-    details: 让你的网站更像一个 APP
-    link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
-
-  - title: 更多新特性
-    icon: more
-    details: 包括图标支持、全屏按钮、返回顶部按钮等
-    link: https://theme-hope.vuejs.press/zh/guide/feature/
+  - title: 微分方程
+    icon: function
+    details: 微分方程的应用十分广泛，可以解决许多与导数有关的问题。
+    link: /video/equations/
 copyright: false
 footer: "Copyright © 2023 Mr.Chen"
 ---

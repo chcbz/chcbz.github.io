@@ -33,12 +33,12 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "布衣云水客",
-      description: "vuepress-theme-hope 的文档演示",
+      description: "一个善良无私、待人真挚的字典小民。",
     },
     "/en/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "Commoner Yunshuike",
+      description: "A kind, selfless and sincere dictionary citizen.",
     },
   },
 
