@@ -12,7 +12,7 @@ export const zhSidebar = sidebar({
     // },
     {
       text: "视频",
-      icon: "note",
+      icon: "actions",
       prefix: "video/",
       children: "structure",
     },

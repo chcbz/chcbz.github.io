@@ -12,7 +12,7 @@ export const enSidebar = sidebar({
     // },
     {
       text: "video",
-      icon: "note",
+      icon: "actions",
       prefix: "video/",
       children: "structure",
     },
