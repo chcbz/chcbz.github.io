@@ -1,6 +1,6 @@
 ---
 title: 4. Differential Equations
-icon: relation
+icon: function
 date: 2023-04-14 00:05:39
 category:
    - video
