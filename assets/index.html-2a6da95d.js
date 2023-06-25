@@ -1,0 +1,1 @@
+import{_ as o,X as t,Y as a,$ as n,a0 as s,C as l}from"./framework-7dab1287.js";const r={},c=s("p",null,"Differential equations are widely used and can solve many problems related to derivatives.",-1);function i(_,d){const e=l("AutoCatalog");return t(),a("div",null,[c,n(e,{base:"/video/equations/"})])}const m=o(r,[["render",i],["__file","index.html.vue"]]);export{m as default};

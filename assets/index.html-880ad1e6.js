@@ -1,0 +1,1 @@
+import{_ as o,X as t,Y as n,$ as a,C as c}from"./framework-7dab1287.js";const s={};function l(_,r){const e=c("AutoCatalog");return t(),n("div",null,[a(e,{base:"/video/calculus/"})])}const d=o(s,[["render",l],["__file","index.html.vue"]]);export{d as default};

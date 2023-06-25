@@ -1,0 +1,1 @@
+import{_ as o,X as t,Y as a,$ as n,a0 as s,C as c}from"./framework-7dab1287.js";const _={},l=s("p",null,"微分方程的应用十分广泛，可以解决许多与导数有关的问题。",-1);function r(d,i){const e=c("AutoCatalog");return t(),a("div",null,[l,n(e,{base:"/video/equations/"})])}const m=o(_,[["render",r],["__file","index.html.vue"]]);export{m as default};
