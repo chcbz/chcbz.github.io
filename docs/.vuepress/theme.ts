@@ -72,30 +72,51 @@ export default hopeTheme({
       category: "General",
       categoryId: "DIC_kwDOJLZlmc4CVyKs",
     },
+    docsearch : {
+      appId: 'JE82SHHB3C',
+      apiKey: '4b0d8533b0aaabb31bb5eecbbb4c315c',
+      indexName: 'chcbz',
+      locales: {
+        '/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索文档',
+            },
+          },
+        },
+        '/en/': {
+          placeholder: 'Search Documentation',
+          translations: {
+            button: {
+              buttonText: 'Search Documentation',
+            },
+          },
+        },
+      },
+    },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
+      chart: false,
       codetabs: true,
       demo: true,
-      echarts: true,
+      echarts: false,
       figure: true,
-      flowchart: true,
+      flowchart: false,
       gfm: true,
       imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
+      katex: false,
       mark: true,
-      mermaid: true,
+      mermaid: false,
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      revealJs: false,
       stylize: [
         {
           matcher: "Recommended",
