@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{r as t,o as n,c as a,e as c,b as r}from"./app-5ZyUDSyM.js";const s={},_=r("p",null,"什么是神经网络？梯度下降，神经网络如何学习?",-1);function l(d,i){const e=t("AutoCatalog");return n(),a("div",null,[_,c(e,{base:"/video/deeplearn/"})])}const f=o(s,[["render",l],["__file","index.html.vue"]]);export{f as default};
