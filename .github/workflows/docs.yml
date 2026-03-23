@@ -30,14 +30,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           # 选择要使用的 node 版本
-          node-version: 18
+          node-version: 20
           # 缓存 pnpm 依赖
           cache: pnpm
 
       # 运行构建脚本
       - name: Build VuePress site
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
+          NODE_OPTIONS: --max_old_space_size=4096
         run: |-
           pnpm run docs:build
           > docs/.vuepress/dist/.nojekyll

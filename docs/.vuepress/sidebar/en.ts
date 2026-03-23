@@ -5,13 +5,13 @@ export const enSidebar = sidebar({
     "",
     {
       icon: "discover",
-      text: "Demo",
-      prefix: "demo/",
-      link: "demo/",
+      text: "Article",
+      prefix: "article/",
+      link: "article/",
       children: "structure",
     },
     {
-      text: "video",
+      text: "Video",
       icon: "actions",
       prefix: "video/",
       children: "structure",

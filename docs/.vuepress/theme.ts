@@ -16,7 +16,19 @@ export default hopeTheme({
 
   repo: "chcbz/chcbz.github.io",
 
-  docsDir: "demo/theme-docs/src",
+  docsDir: "docs",
+
+  // SEO 优化配置
+  seo: {
+    name: "布衣云水客",
+    twitter: "chcbz",
+  },
+
+  head: [
+    ["meta", { name: "keywords", content: "Java, Spring Cloud, 微服务, DevOps, 技术博客, 线性代数, 微积分" }],
+    ["meta", { name: "author", content: "Mr.Chen" }],
+    ["meta", { property: "og:site_name", content: "布衣云水客" }],
+  ],
 
   locales: {
     "/": {
