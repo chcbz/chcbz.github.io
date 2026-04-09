@@ -4,7 +4,7 @@ icon: home
 title: 主页
 heroImage: /logo.svg
 heroText: 布衣云水客
-tagline: 一个善良无私、待人真挚的字典小民。
+tagline: 布衣之心，云水之行；以技会友，以文载道。
 actions:
   - text: 文章 💡
     link: /article/
