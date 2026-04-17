@@ -17,22 +17,22 @@ features:
    - title: Disruptor detailed introduction
      icon: process
      details: A high-performance queue developed by the British foreign exchange trading company LMAX. 
-     link: /en/article/2023041222.html
+     link: /en/article/2023/2023041222.html
 
    - title: Markdown Manual
      icon: markdown
      details: Markdown is a lightweight markup language used to add formatting and structure to text for easier reading and understanding.
-     link: /en/article/2023040623.html
+     link: /en/article/2023/2023040623.html
 
    - title: Apply for HTTPS certificate
      icon: http
      details: Automatically obtain and update HTTPS certificates through certbot-auto, supporting Alibaba Cloud, Tencent Cloud, and Godaddy.
-     link: /en/article/2019060114.html
+     link: /en/article/2019/2019060114.html
 
    - title: Centos starts the execution process
      icon: centos
      details: Briefly describe the execution process of the Centos startup script.
-     link: /en/article/2019041110.html
+     link: /en/article/2019/2019041110.html
 
    - title: The Essence of Linear Algebra
      icon: object
