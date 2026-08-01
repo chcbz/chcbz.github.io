@@ -1,4 +1,4 @@
----
+﻿---
 title: 文章
 icon: discover
 order: 1
@@ -12,6 +12,11 @@ category: false
 ### 2026 年
 
 <ArticleList :articles="getArticlesByYear(2026)" />
+
+
+### 2025 年
+
+<ArticleList :articles="getArticlesByYear(2025)" />
 
 ### 2024 年
 
