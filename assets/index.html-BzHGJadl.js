@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-DlAUqK2U.js";import{r as n,o as a,c as r,b as s,e as l}from"./app-E1vXAF15.js";const c={};function _(i,e){const o=n("AutoCatalog");return a(),r("div",null,[e[0]||(e[0]=s("p",null,"微分方程的应用十分广泛，可以解决许多与导数有关的问题。",-1)),l(o,{base:"/video/equations/"})])}const u=t(c,[["render",_],["__file","index.html.vue"]]);export{u as default};

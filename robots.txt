@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.chcbz.net/sitemap.xml
+
+User-agent:*
+Disallow:
+
+Sitemap: https://blog.chcbz.net/sitemap.xml
