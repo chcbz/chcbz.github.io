@@ -3,6 +3,7 @@ import path from "node:path";
 import { getPlatformEnabled, loadArticle } from "./article.mjs";
 import { getWechatDraftTitles, isWechatConfigured, publishWechat } from "./wechat.mjs";
 import { isCsdnConfigured, publishCsdn } from "./csdn.mjs";
+import { verifyWechatDraft } from "./verify-wechat-draft.mjs";
 
 const dryRun = /^(?:1|true|yes)$/i.test(process.env.SYNDICATE_DRY_RUN || "");
 const strict = !/^(?:0|false|no)$/i.test(process.env.SYNDICATE_STRICT || "true");
@@ -38,12 +39,18 @@ for (const file of files) {
     }
     if (platform.id === "wechat" && wechatDraftTitles?.has(article.title)) {
       console.log(`- ${platform.name}: 已有同标题草稿，跳过`);
+      const verification = await verifyWechatDraft(article);
+      console.log(`- 微信公众号草稿核验: ${JSON.stringify(verification)}`);
       continue;
     }
 
     try {
       const result = await platform.publish(article);
       if (platform.id === "wechat") wechatDraftTitles?.add(article.title);
+      if (platform.id === "wechat" && result.mode === "draft") {
+        const verification = await verifyWechatDraft(article, process.env, { mediaId: result.id });
+        console.log(`- 微信公众号草稿核验: ${JSON.stringify(verification)}`);
+      }
       console.log(`- ${platform.name}: ${result.mode === "publish" ? "已发布" : "已保存草稿"}${result.url ? ` ${result.url}` : ""}`);
     } catch (error) {
       failures += 1;
