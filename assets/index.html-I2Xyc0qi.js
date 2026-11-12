@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as n,c as r,d as l,a as s}from"./app-D0L6FjwM.js";const c={};function _(d,e){const o=a("AutoCatalog");return n(),r("div",null,[e[0]||(e[0]=l("p",null,"我想很多观众已经对向量具有了一定的了解，所以这个视频旨在快速复习向量的有关术语，并确保我们能在同一起跑线上用线性代数的思维思考向量。",-1)),s(o,{base:"/video/linearalgebra/"})])}const m=t(c,[["render",_],["__file","index.html.vue"]]);export{m as default};

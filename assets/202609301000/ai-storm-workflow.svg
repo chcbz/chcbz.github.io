@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">AI风暴眼自动值班编辑部</title>
+<desc id="desc">每两小时巡查，从发现、核实、制作、质检、投稿到公开验证。无合格热点不出片。</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#061523"/><stop offset="1" stop-color="#172f43"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#2ccbe6" stop-opacity=".2"/><stop offset="1" stop-color="#2ccbe6" stop-opacity="0"/></radialGradient>
+<pattern id="rain" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M30 0 0 50" stroke="#7ed9ed" opacity=".06"/></pattern>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect width="1200" height="630" fill="url(#rain)"/>
+<circle cx="995" cy="160" r="230" fill="url(#glow)"/>
+<g fill="none" stroke="#63d9ec" opacity=".22"><circle cx="1010" cy="140" r="120"/><circle cx="1010" cy="140" r="82"/><circle cx="1010" cy="140" r="44"/><path d="M890 140h240M1010 20v240"/></g>
+<path d="m1033 65-44 83h39l-31 62 68-90h-40l27-55" fill="#86e7f3" opacity=".8"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">
+<text x="64" y="78" fill="#74dbe8" font-size="24" letter-spacing="4">AI STORM EYE · WORKFLOW</text>
+<text x="64" y="160" fill="#f4f8fc" font-size="58" font-weight="700">AI风暴眼</text>
+<text x="64" y="220" fill="#f4f8fc" font-size="38" font-weight="700">一间自动值班的新闻编辑部</text>
+<text x="64" y="278" fill="#b5c8d5" font-size="24">每两小时巡查 · 合格热点即时制播 · 公开状态实证核验</text>
+</g>
+<g stroke="#536e82" stroke-width="3" fill="none"><path d="M227 402h27m156 0h27m156 0h27m156 0h27m156 0h27"/></g>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" text-anchor="middle">
+<g><rect x="64" y="350" width="163" height="104" rx="16" fill="#123446" stroke="#52c6da"/><text x="145" y="381" fill="#74dbe8" font-size="15">01 · RADAR</text><text x="145" y="423" fill="#fff" font-size="30">发现</text></g>
+<g><rect x="247" y="350" width="163" height="104" rx="16" fill="#123446" stroke="#52c6da"/><text x="328" y="381" fill="#74dbe8" font-size="15">02 · SOURCES</text><text x="328" y="423" fill="#fff" font-size="30">核实</text></g>
+<g><rect x="430" y="350" width="163" height="104" rx="16" fill="#123446" stroke="#52c6da"/><text x="511" y="381" fill="#74dbe8" font-size="15">03 · STUDIO</text><text x="511" y="423" fill="#fff" font-size="30">制作</text></g>
+<g><rect x="613" y="350" width="163" height="104" rx="16" fill="#123446" stroke="#52c6da"/><text x="694" y="381" fill="#74dbe8" font-size="15">04 · QUALITY</text><text x="694" y="423" fill="#fff" font-size="30">质检</text></g>
+<g><rect x="796" y="350" width="163" height="104" rx="16" fill="#123446" stroke="#52c6da"/><text x="877" y="381" fill="#74dbe8" font-size="15">05 · SUBMIT</text><text x="877" y="423" fill="#fff" font-size="30">投稿</text></g>
+<g><rect x="979" y="350" width="163" height="104" rx="16" fill="#3c3428" stroke="#e3b86f"/><text x="1060" y="381" fill="#ffd38d" font-size="15">06 · VERIFY</text><text x="1060" y="423" fill="#fff" font-size="30">公开验证</text></g>
+</g>
+<path d="M64 512h1078" stroke="#365366"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif"><text x="64" y="562" fill="#d7e3ec" font-size="23">没有合格热点，就安静记录；每一次“已发布”，都有证据。</text><text x="64" y="602" fill="#7894a8" font-size="16">2026.09.30 · 布衣云水客 · 现有项目实战教程</text></g>
+</svg>

@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as n,c as a,a as c}from"./app-D0L6FjwM.js";const r={};function s(_,l){const e=t("AutoCatalog");return n(),a("div",null,[c(e,{base:"/video/"})])}const i=o(r,[["render",s],["__file","index.html.vue"]]);export{i as default};

@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as n,c as s,d as r,a as l}from"./app-D0L6FjwM.js";const d={};function i(c,e){const o=a("AutoCatalog");return n(),s("div",null,[e[0]||(e[0]=r("p",null,"Differential equations are widely used and can solve many problems related to derivatives.",-1)),l(o,{base:"/video/equations/"})])}const u=t(d,[["render",i],["__file","index.html.vue"]]);export{u as default};

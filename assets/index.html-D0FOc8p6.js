@@ -1,0 +1,1 @@
+import{_ as o,r as n,o as t,c,a as r}from"./app-D0L6FjwM.js";const a={};function _(s,l){const e=n("HomeJournal");return t(),c("div",null,[r(e)])}const d=o(a,[["render",_],["__file","index.html.vue"]]);export{d as default};

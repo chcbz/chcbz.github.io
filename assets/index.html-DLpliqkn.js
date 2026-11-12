@@ -1,0 +1,1 @@
+import{_ as n,r as t,o as a,c as r,d as s,a as l}from"./app-D0L6FjwM.js";const c={};function d(_,e){const o=t("AutoCatalog");return a(),r("div",null,[e[0]||(e[0]=s("p",null,"What is a neural network? Gradient descent, how does a neural network learn?",-1)),l(o,{base:"/video/deeplearn/"})])}const u=n(c,[["render",d],["__file","index.html.vue"]]);export{u as default};
