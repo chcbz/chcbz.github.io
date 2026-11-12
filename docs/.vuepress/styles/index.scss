@@ -62,7 +62,7 @@ html[data-theme="dark"] .home-journal {
 .journal-intro { display: grid; grid-template-columns: 1.5fr 1fr; align-items: center; gap: 70px; padding: 78px 0 62px; }
 .journal-intro .journal-eyebrow { display: flex; align-items: center; gap: 10px; }
 .journal-eyebrow > span { width: 7px; height: 7px; border-radius: 50%; background: var(--journal-accent); }
-.journal-intro h1 { margin: 25px 0 20px; font-size: 18px; font-weight: 500; letter-spacing: .05em; }
+.journal #main-title { margin: 25px 0 20px; background: none; color: var(--journal-ink); -webkit-text-fill-color: currentColor; font-size: 18px; font-weight: 500; font-family: inherit; text-align: left; letter-spacing: .05em; }
 .journal-intro h1 > span { display: block; margin-top: 12px; font-family: Georgia, "Noto Serif SC", "Songti SC", serif; font-size: clamp(32px, 3.5vw, 48px); font-weight: 650; line-height: 1.4; letter-spacing: -.02em; }
 .journal-lead { color: var(--journal-muted); font-size: 15px; }
 .journal-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin-top: 26px; }
