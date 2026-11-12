@@ -1,10 +1,18 @@
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { fileURLToPath } from 'node:url';
+import { getHomePosts } from './home-posts.mjs';
 
 export default defineUserConfig({
   base: "/",
   plugins: [
+    {
+      name: 'blog-home-posts',
+      define: () => ({
+        __HOME_POSTS__: getHomePosts(fileURLToPath(new URL('../article/', import.meta.url))),
+      }),
+    },
     googleAnalyticsPlugin({
       id: 'G-CRER5PD2NB',
     }),
